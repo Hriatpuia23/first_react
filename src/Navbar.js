@@ -8,14 +8,15 @@ const Navbar = () => { //sfc = stateless functional component
       <h1>Hpa Blog</h1>
       <div className="links">
         {/* <a href="/">Home</a> */}
-        <Link to="/">Home</Link>
+        <Link to="/first_react">Home</Link>
 
         {/* Inline Css apply dan */}
-        <Link to="/create" style={{
+        {/* <Link to="/first_react/create" style={{
           color:"white",
           backgroundColor: '#f1356d',
           borderRadius: '8px'
-        }}>New Blog</Link>
+        }}>New Blog</Link> */}
+        <Link to="/first_react/create">New Blog</Link>
       </div>
     </div>
   );

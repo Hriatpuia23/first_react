@@ -25,7 +25,7 @@ const Create = () => {
         setIsPending(false)
         console.log("New Blog added")
         // navigate(-1)
-        navigate("/")
+        navigate("/first_react")
       })
     },500)
 
