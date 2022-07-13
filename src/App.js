@@ -46,9 +46,9 @@ function App(){
           <Navbar/>
             <div className="content">
               <Routes>
-                <Route path="/first_react" element={<Home/>}/>
-                <Route path="/first_react/create" element={<Create/>}/>
-                <Route path='/first_react/blogs/:id' element={<BlogDetails/>}/> {/* hei hi id thlak theih a dah dan a ni. */}
+                <Route path="/" element={<Home/>}/>
+                <Route path="/create" element={<Create/>}/>
+                <Route path='/blogs/:id' element={<BlogDetails/>}/> {/* hei hi id thlak theih a dah dan a ni. */}
                 <Route path='*' element={<NotFound/>}/>
               </Routes>
             </div>
